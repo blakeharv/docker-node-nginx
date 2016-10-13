@@ -3,26 +3,11 @@ Docker Demo...
 
 ### Pre-reqs:
  * Download docker for Mac: https://www.docker.com/products/docker#/mac
- * Download Heroku CLI: https://devcenter.heroku.com/articles/heroku-command-line
- * Heroku container docs: https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 ````sh
-# Verify basic plugins, apps
-
-$ heroku --version
-# heroku-toolbelt/3.43.12 (x86_64-darwin10.8.0) ruby/1.9.3
-# heroku-cli/5.4.3-a5b1cb1 (darwin-amd64) go1.7.1
 
 $ docker --version
 # Docker version 1.12.1, build 6f9534c
-
-# Additional Heroku setup
-
-$ heroku login
-$ heroku plugins:install heroku-container-registry
-$ heroku container:login
-
-$ git clone git@github.com:blakeharv/heroku-docker-node-nginx.git
 ````
 
 ### Questions:

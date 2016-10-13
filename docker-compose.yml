@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  node-alpha:
+    build:
+      context: .
+      dockerfile: Dockerfile-Alpha
+    expose:
+      - 80
+
+  node-beta:
+    build:
+      context: .
+      dockerfile: Dockerfile-Beta
+    expose:
+      - 80
+
+  nginx-proxy:
+    image: nginx
+    links:
+      - node-alpha
+      - node-beta
+    ports:
+      - "80:80"
+    expose:
+      - 80
+    volumes:
+      - ./nginx-proxy/conf.d:/etc/nginx/conf.d
+      - ./static:/www/static
