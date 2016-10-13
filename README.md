@@ -1,7 +1,7 @@
 # heroku-docker-node-nginx
 Docker Demo...
 
-#### Pre-reqs:
+### Pre-reqs:
  * Download docker for Mac: https://www.docker.com/products/docker#/mac
  * Download Heroku CLI: https://devcenter.heroku.com/articles/heroku-command-line
 
@@ -12,4 +12,6 @@ $ heroku --version
 
 $ docker --version
 # Docker version 1.12.1, build 6f9534c
+
+$ git clone git@github.com:blakeharv/heroku-docker-node-nginx.git
 ````
