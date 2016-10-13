@@ -3,11 +3,19 @@ Docker Demo...
 
 ### Pre-reqs:
  * Download docker for Mac: https://www.docker.com/products/docker#/mac
+ * Click the Docker.app to start the Docker Daemon
+ * Pull this repo and go to the folder
 
 ````sh
-
 $ docker --version
 # Docker version 1.12.1, build 6f9534c
+$ docker info
+# Env output if the daemon is running, otherwise an error
+
+$ docker-compose up
+# Will run all the things
+
+# visit 'localhost' in the browser
 ````
 
 ### Questions:
