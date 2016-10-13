@@ -1,4 +1,4 @@
-# heroku-docker-node-nginx
+# Docker Demo for Multiple Node Apps + NGINX proxy
 Docker Demo...
 
 ### Pre-reqs:
