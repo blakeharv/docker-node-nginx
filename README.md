@@ -26,3 +26,7 @@ $ docker-compose up
  2. What is a container registry and how does that work?
    * https://hub.docker.com/explore/
    * https://hub.docker.com/_/node/
+ 3. Ok, I understand Docker, what's this have to do with the Tues workshop?
+   * Container orchestration - image deployment, service discovery, fault recovery, scaling, etc.
+   * Micro-client application development
+   * Beyond giftcards with the Strangler
