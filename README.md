@@ -30,3 +30,4 @@ $ docker-compose up
    * Container orchestration - image deployment, service discovery, fault recovery, scaling, etc.
    * Micro-client application development
    * Beyond giftcards with the Strangler
+   
