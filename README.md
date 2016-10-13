@@ -1,12 +1,13 @@
 # Docker Demo for Multiple Node Apps + NGINX proxy
-Docker Demo...
 
 ### Pre-reqs:
  * Download docker for Mac: https://www.docker.com/products/docker#/mac
  * Click the Docker.app to start the Docker Daemon
  * Pull this repo and go to the folder
 
-````sh
+### Demo:
+
+```sh
 $ docker --version
 # Docker version 1.12.1, build 6f9534c
 $ docker info
@@ -16,7 +17,7 @@ $ docker-compose up
 # Will run all the things
 
 # visit 'localhost' in the browser
-````
+```
 
 ### Questions:
 
@@ -25,7 +26,7 @@ $ docker-compose up
    * Actually uses LXC under the hood: https://en.wikipedia.org/wiki/LXC
  2. What is a container registry and how does that work?
    * https://hub.docker.com/explore/
-   * https://hub.docker.com/_/node/
+   * https://hub.docker.com/_/node/, https://hub.docker.com/_/buildpack-deps/, https://hub.docker.com/_/debian/
  3. Ok, I understand Docker, what's this have to do with the Tues workshop?
    * Container orchestration - image deployment, service discovery, fault recovery, scaling, etc.
    * Micro-client application development
